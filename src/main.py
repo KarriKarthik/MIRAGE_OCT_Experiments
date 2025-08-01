@@ -6,6 +6,7 @@ from torch.amp import autocast, GradScaler # for mixed precision
 import torch.optim as optim
 
 # The optimizer only receives the parameters of the head
+# optimizer = optim.RMSprop(model.head.parameters(), lr=0.05)
 optimizer = optim.SGD(model.head.parameters(),lr=0.5, momentum=0.5)
 
 # Categorical cross-entropy loss. Assumes softmax classifier. Seperate defination not needed
