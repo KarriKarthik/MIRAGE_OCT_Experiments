@@ -1,6 +1,6 @@
 # Note
 
-The project code structure assumes that the database is already downloaded into the google drive. In this project, the subfolders in the database have been zipped to reduce the storage requirement in Google drive. Further information on how to download a kaggle dataset into Google Colab is discussed [here](https://www.kaggle.com/discussions/general/74235). The code is organised in a sytematic manner where each individual .py file can be run as a saperate code block in a python notebook. The project is implemented using pytorch deep learning library.  
+The project code structure assumes that the database is already downloaded into the google drive. In this project, the subfolders in the database have been zipped to reduce the storage requirement in Google drive. Further information on how to download a kaggle dataset into Google Colab is discussed [here](https://www.kaggle.com/discussions/general/74235). The code is organised in a sytematic manner where each individual Python(.py) file can be run as a saperate code block in a python notebook. The project is implemented using pytorch deep learning library.  
 
 
 # File Descriptions 
