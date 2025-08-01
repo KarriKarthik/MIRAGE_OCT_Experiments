@@ -3,7 +3,7 @@ import torch.nn as nn
 import torch.optim as optim
 from torchvision import datasets, transforms
 from torch.amp import autocast, GradScaler # for mixed precision
-import torch.optim as optim
+
 
 # The optimizer only receives the parameters of the head
 # optimizer = optim.RMSprop(model.head.parameters(), lr=0.05)
