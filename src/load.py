@@ -6,6 +6,9 @@ github_repo_url = "https://github.com/j-morano/MIRAGE.git"
 !mkdir /content/MIRAGE_Updated/update_code_package
 %%writefile /content/MIRAGE_Updated/hf/__init__.py # Had to be included to be considered as package
 # =============
+
+# == Note : Code to load MIRAGE from original MIRAGE github repository : https://github.com/j-morano/MIRAGE
+
 """
 
 from huggingface_hub import PyTorchModelHubMixin
