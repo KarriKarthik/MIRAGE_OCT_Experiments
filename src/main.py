@@ -17,7 +17,7 @@ data_transforms = transforms.Compose([
     transforms.Resize((512, 512)), # 512 is dimension of pre-trained foundation model
     transforms.Grayscale(num_output_channels=1),
     transforms.ToTensor(),
-    # transforms.Normalize((0.5,), (0.5,))
+    # transforms.Normalize((0.5,), (0.5,)) # Could be used but might affect the visual charecteristics of OCT image
 ])
 
 # Data Loading
