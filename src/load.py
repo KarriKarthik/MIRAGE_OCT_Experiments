@@ -1,10 +1,13 @@
 github_repo_url = "https://github.com/j-morano/MIRAGE.git"
-print(f"Cloning repository: {github_repo_url}")
+"""
+# Other commands =====
 !git clone {github_repo_url}
-print("\nRepository cloned successfully!")
 !mv "MIRAGE" "MIRAGE_Updated" # Rename the folder
 !mkdir /content/MIRAGE_Updated/update_code_package
-%%writefile /content/MIRAGE_Updated/hf/__init__.py
+%%writefile /content/MIRAGE_Updated/hf/__init__.py # Had to be included to be considered as package
+# =============
+"""
+
 from huggingface_hub import PyTorchModelHubMixin
 from MIRAGE_Updated.hf.mirage_hf import MIRAGEWrapper
 
