@@ -4,10 +4,6 @@ The data for this project is available as a public database is not stored in thi
 1. Mendeley Data : [Labeled Optical Coherence Tomography (OCT) for Classification](https://data.mendeley.com/datasets/rscbjbr9sj/1)
 2. Kaggle : [Retinal OCT Images (optical coherence tomography)](https://www.kaggle.com/datasets/paultimothymooney/kermany2018)
 
-# Download Steps
-
-
-
 
 
 # References
