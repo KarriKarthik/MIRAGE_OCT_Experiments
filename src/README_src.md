@@ -9,7 +9,7 @@ a saperate code block in a python notebook. The project is implemented using pyt
 
 The source code is organized into the following files:
 
--   **`data_load.py`**: Contains code for importing google drive and loading the data in local SSD drive for faster data access.
+-   **`data_load.py`**: Contains code for importing google drive. Also included are command line commands to load the data in local SSD drive for faster data access.
 -   **`load.py`**: Contains code for importing the foundation model from hugging face.
 -   **`model.py`**: Contains code for modyfying the imported model for classification task.
 -   **`main.py`**: This file is the main file which includes the code for training the model.
