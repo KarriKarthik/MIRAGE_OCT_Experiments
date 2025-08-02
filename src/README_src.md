@@ -14,4 +14,6 @@ The source code is organized into the following files:
 
 
 > [!IMPORTANT]
-> Key information users need to know to achieve their goal.
+> Following Libraries need to be installed :
+> 1. Pytorch : 2.6.0 (CUDA 12.4)
+> 2. huggingface-hub :  0.34.1
