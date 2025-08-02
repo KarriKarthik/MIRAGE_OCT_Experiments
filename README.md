@@ -11,7 +11,7 @@ The data for this project is available as a public database and is not stored in
 
 [MIRAGE](https://github.com/j-morano/MIRAGE) is a multimodal foundation model for comprehensive retinal OCT/SLO image analysis. It is trained on a large-scale dataset of multimodal data, and is designed to perform a wide range of tasks, including disease staging, diagnosis, and layer and lesion segmentation. MIRAGE is based on the MultiMAE architecture, and is pretrained using a multi-task learning strategy. The model, based on ViT, is available in two sizes: MIRAGE-Base and MIRAGE-Large.
 
-The original code of MIRAGE is available as a GitHub repository. The development work has been led by José Morano and Hrvoje Bogunović, from the CD-AIR lab of the Medical University of Vienna. The pre-print of the research [(https://arxiv.org/abs/2506.08900)], is available as an arXiv and has been accepted for publication in npj Digital Medicine.
+The original code of MIRAGE is available as a GitHub repository. The development work has been led by José Morano and Hrvoje Bogunović, from the CD-AIR lab of the Medical University of Vienna. The pre-print of the research [[2](https://arxiv.org/abs/2506.08900)], is available as an arXiv and has been accepted for publication in npj Digital Medicine.
 
 
 
