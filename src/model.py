@@ -14,7 +14,7 @@ model.head = nn.Sequential(
     nn.GELU(approximate='none'),
     nn.BatchNorm1d(128),
     nn.Dropout(p=0.5),
-    nn.Linear(128, 4) # Output raw scores
+    nn.Linear(128, 4) # Output raw scores - nn.Linear(128, 2) (Binary: 2 class) 
 )
 
 # Freeze the original model's weights 
