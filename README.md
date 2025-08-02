@@ -18,4 +18,5 @@ The original code of MIRAGE is available as a Github repository. The development
 # References
 
 [1] Kermany, Daniel S., et al. "Identifying medical diagnoses and treatable diseases by image-based deep learning." cell 172.5 (2018): 1122-1131.
+
 [2] Morano, José, et al. "MIRAGE: Multimodal foundation model and benchmark for comprehensive retinal OCT image analysis." arXiv preprint arXiv:2506.08900 (2025).
