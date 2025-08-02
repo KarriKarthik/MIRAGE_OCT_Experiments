@@ -13,5 +13,5 @@ The source code is organized into the following files:
 -   **`main.py`**: This file is the main file which includes the code for training the model.
 
 
-[|IMPORTANT]
- Important 
+> [!IMPORTANT]
+> Key information users need to know to achieve their goal.
